@@ -10,33 +10,49 @@
 </head>
 <body>
   <header>
-    <div class="container">
-      <div class="img">
-        <img src="Polish_20210523_132110186.jpg" width="100px" height="100px" alt="サンバの写真">
-        
+    <div class="tab" id="js-tab">
+      <div class="tab-nav">
+        <a href="" class="tab-nav-item is-active" data-nav="0">Intr</a>
+        <a href="" class='tab-nav-item' data-nav="1">Contact</a>
       </div>
-      <div class="info">
-        <h1>三波(さんば)</h1>
+      <div class="tab-contents">
+        <div class="tab-contents-item" data-content="0">
+          <div class="container">
+            <div class="img01">
+              <img src="Polish_20210523_132110186.jpg" width="130px" height="130px" alt="染谷悠介の写真">
+            </div>
+            <div class="info">
+              <h1>染谷悠介</h1>
+              <p>エンジニアの卵です。<br>SNS名は三波（サンバ）を使うことが多いです。</p>
+            </div>
+          </div>
         
-        <p>エンジニアの卵です。さんばは本名ではないです。</p>
-        <ul>
-          <li>
-            <div class="choice">
-              <a href="https://twitter.com/sansan_sanba" target="_blank">
-                <img src="twitter-brands.svg" width="20px" height="20px" alt="Twitter">
-              </a> 
-  
-            </div>
-          </li>
-          <li>
-            <div class="choice">
+        </div>
+        <div class="tab-contents-item" data-content="1">
 
-              <a href="http://www.instgram.com/sanban_curry/" target="_blank">
-               <Img src="instagram-brands.svg" width="20px" height="20px" alt="Instagram">
-              </a>
+          <ul>
+              <li>
+                <div class="choice">
+                  <a href="https://twitter.com/sansan_sanba" target="_blank">
+                    <img src="twitter-brands.svg" width="60px" height="60px" alt="Twitter">Twitter
+                  </a> 
+      
+                </div>
+              </li>
+              <li>
+                <div class="choice">
+    
+                  <a href="https://github.com/Sanban-curry" target="_blank">
+                   <Img src="github-brands.svg" width="60px" height="60px" alt="GitHub">GitHub
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <div class="wantedly">
+              <a href="https://www.wantedly.com/users/150588040" target="_blank"><img src="wantedly_logo.svg"width="260px" height="100px" alt="Wantedly">Wantedly</a>
+
             </div>
-          </li>
-        </ul>
+        </div>
       </div>
 
     </div>
@@ -63,7 +79,7 @@
       <section>
         <h1>じゃんけんゲーム</h1>
         <div class="choice">
-          <a href="https://sanban-curry.github.io/janken-game/" target="_blank">
+          <a href="" target="_blank">
           <img src="スクリーンショット 2021-05-23 011159.png" width="500px"height="350px" alt="じゃんけんゲームの画面">
         </a>
 
@@ -76,9 +92,8 @@
   
     </main>
     <footer>
-     <small>ver.1.1.3</small>
+      <small>version.2.0.1</small>
     </footer>
-
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
